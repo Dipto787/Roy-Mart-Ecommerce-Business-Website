@@ -34,7 +34,8 @@ const slides = [
 
 const ShopNowBanner = () => {
   return (
-    <div className="w-full relative lg:pt-0 pt-32 ">
+   <div className=" ">
+     <div className="w-full relative lg:pt-0 pt-32 ">
       <Swiper
         navigation={true}
         modules={[Navigation, Autoplay]}
@@ -43,7 +44,7 @@ const ShopNowBanner = () => {
           delay: 5000,
           disableOnInteraction: false,
         }}
-        className="w-full h-[300px] sm:h-[400px] md:h-[600px] lg:h-screen"
+        className="w-full h-[300px] sm:h-[400px] md:h-[600px]  "
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index} className="relative w-full  h-full">
@@ -55,9 +56,9 @@ const ShopNowBanner = () => {
               style={{ objectFit: "cover", objectPosition: "center" }}
             /> 
             {/* Overlay */}
-            <div className="absolute inset-0   h-80 flex justify-center lg:top-26 bg-black/40 max-w-lg rounded-lg mx-auto "></div> 
+            <div className="absolute inset-0 border-2 border-orange-600   h-80 flex justify-center lg:top-26 bg-black/40 max-w-lg rounded-lg mx-auto "></div> 
             {/* Content */}
-            <div className="absolute  max-w-md mx-auto inset-0 flex flex-col items-center justify-center text-center px-4 md:px-0">
+            <div className="absolute   max-w-md mx-auto inset-0 flex flex-col items-center justify-center text-center px-4 md:px-0">
               <h2 className=" text-white text-lg sm:text-2xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 drop-shadow-lg">
                 {slide.title}
               </h2>
@@ -70,6 +71,7 @@ const ShopNowBanner = () => {
         ))}
       </Swiper>
     </div>
+   </div>
   );
 };
 
