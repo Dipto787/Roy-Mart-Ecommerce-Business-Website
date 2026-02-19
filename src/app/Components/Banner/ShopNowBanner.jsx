@@ -13,65 +13,69 @@ const slides = [
     alt: "banner img 1",
     title: "Stylish Winter Collection",
     description:
-      "Step into the season with our stylish winter collection for men, crafted with premium fabrics and modern designs. Each piece is made to provide warmth, comfort, and a confident look, perfect for everyday wear as well as special occasions. Experience fashion that blends functionality with timeless style.",
+      "Step into the season with premium winter fashion for men. Comfort, warmth, and confidence in every outfit.",
   },
   {
     src: "/banner-img/banner-2.jpg",
     alt: "banner img 2",
     title: "New Arrivals Just For You",
     description:
-      "Explore our latest arrivals in men’s fashion, designed to match today’s lifestyle and trends. From casual essentials to refined statement pieces, every item reflects quality craftsmanship and attention to detail. Refresh your wardrobe with styles that keep you looking sharp and feeling comfortable.",
+      "Explore the latest men’s fashion. Modern styles, quality fabrics, and perfect everyday fits.",
   },
   {
     src: "/banner-img/banner-3.jpg",
     alt: "banner img 3",
     title: "Upgrade Your Wardrobe Today",
     description:
-      "Upgrade your wardrobe with versatile men’s outfits that transition effortlessly from day to night. Our collection combines classic elegance with modern aesthetics, offering clothing that enhances your personality and confidence. Discover fashion that fits your style, comfort, and everyday needs.",
+      "Versatile outfits that move with your lifestyle. Day to night. Comfort meets style.",
   },
 ];
 
-
 const ShopNowBanner = () => {
   return (
-   <div className=" ">
-     <div className="w-full relative lg:pt-0 pt-32 ">
+    <div className="w-full">
       <Swiper
-        navigation={true}
+        navigation
         modules={[Navigation, Autoplay]}
-        loop={true}
-        autoplay={{
-          delay: 5000,
-          disableOnInteraction: false,
-        }}
-        className="w-full h-[300px] sm:h-[400px] md:h-[600px]  "
+        loop
+        autoplay={{ delay: 5000, disableOnInteraction: false }}
+        className="w-full h-[280px] sm:h-[380px] md:h-[500px] lg:h-[600px]"
       >
         {slides.map((slide, index) => (
-          <SwiperSlide key={index} className="relative w-full  h-full">
-            {/* Image */}
+          <SwiperSlide key={index} className="relative w-full h-full">
+            {/* Background Image */}
             <Image
               src={slide.src}
               alt={slide.alt}
               fill
-              style={{ objectFit: "cover", objectPosition: "center" }}
-            /> 
-            {/* Overlay */}
-            <div className="absolute inset-0 border-2 border-orange-600   h-80 flex justify-center lg:top-26 bg-black/40 max-w-lg rounded-lg mx-auto "></div> 
-            {/* Content */}
-            <div className="absolute   max-w-md mx-auto inset-0 flex flex-col items-center justify-center text-center px-4 md:px-0">
-              <h2 className=" text-white text-lg sm:text-2xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 drop-shadow-lg">
-                {slide.title}
-              </h2>
-              <p className="text-white ">{slide.description}</p>
-              <Link href={'/shop'} className="bg-orange-400 mt-4 text-black font-semibold px-5 py-2 sm:px-6 sm:py-3 rounded-md shadow-lg hover:bg-gray-200 transition">
-                Shop Now
-              </Link>
+              priority
+              className="object-cover object-center"
+            />
+
+            {/* Dark Overlay */}
+            <div className="absolute inset-0 bg-black/40" />
+
+            {/* Content Card */}
+            <div className="absolute inset-0 flex items-center justify-center px-4">
+              <div className="bg-black/50 backdrop-blur-md text-white max-w-xl w-full p-6 sm:p-8 rounded-xl text-center shadow-xl">
+                <h2 className="text-xl sm:text-2xl md:text-4xl font-bold mb-3">
+                  {slide.title}
+                </h2>
+                <p className="text-sm sm:text-base md:text-lg opacity-90 mb-5">
+                  {slide.description}
+                </p>
+                <Link
+                  href="/category/Sweater"
+                  className="inline-block bg-orange-500 hover:bg-orange-400 text-black font-semibold px-5 py-2.5 rounded-md transition"
+                >
+                  Shop Now
+                </Link>
+              </div>
             </div>
           </SwiperSlide>
         ))}
       </Swiper>
     </div>
-   </div>
   );
 };
 

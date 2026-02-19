@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const WinterHighlight = () => {
     return (
@@ -32,10 +33,11 @@ const WinterHighlight = () => {
                                 Discover premium winter wear designed for comfort and style.
                                 Jackets, hoodies, sweaters & more.
                             </p>
-
-                            <button className="mt-6 px-8 py-3 bg-white text-black rounded-full font-semibold hover:bg-gray-200 transition">
-                                Explore Winter Collection
-                            </button>
+                            <Link href={'/category/Hoodie'}>
+                                <button className="mt-6 cursor-pointer px-8 py-3 bg-white text-black rounded-full font-semibold hover:bg-gray-200 transition">
+                                    Explore Winter Collection
+                                </button>
+                            </Link>
                         </div>
 
                         {/* Feature Tags */}

@@ -1,5 +1,4 @@
-import Image from "next/image";
-import OurTopCategories from "./Components/our-top-categories/OurTopCategories";
+import Image from "next/image"; 
 import ShopNowBanner from "./Components/Banner/ShopNowBanner";
 import DealsSection from "./Components/DealSection/DealSection";
 import WinterHighlight from "./Components/WinterHighlight/WinterHighlight";
@@ -8,15 +7,16 @@ import InstagramSection from "./Components/insta/InstaPhoto";
 import FAQSection from "./Components/FAQ/FaqSection";
 import NewsletterSection from "./Components/Discount/NewsLetterDiscount";
 import CustomerReviews from "./Components/WhatSaysOur-Clients/CustomerReview";
+import FeaturedProducts from "./Components/FeauturedProduct/FeauturedProduct";
 
 export default function Home() {
   return (
     <div>
       <ShopNowBanner></ShopNowBanner>
-      <OurTopCategories></OurTopCategories>
       <DealsSection></DealsSection>
       <WinterHighlight></WinterHighlight>
       <WhyChooseUs></WhyChooseUs>
+      <FeaturedProducts></FeaturedProducts>
       <InstagramSection></InstagramSection>
       <NewsletterSection></NewsletterSection>
       <CustomerReviews></CustomerReviews>

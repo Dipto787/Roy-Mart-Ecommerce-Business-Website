@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const categories = [
   {
@@ -19,7 +20,7 @@ const categories = [
   },
   {
     id: 4,
-    category: "Rashgard",
+    category: "Rashguard",
     image: "https://i.ibb.co.com/kV1WWxd4/ultra-warm-baselayer-set-men-thermic.webp",
   },
   {
@@ -31,12 +32,12 @@ const categories = [
 
 const OurTopCategories = () => {
   return (
-    <div className="container mx-auto px-4  py-10 lg:py-20">
-      
+    <div className="container mx-auto px-4  pt-40 lg:pt-20 pb-5">
+
 
       <div className="flex justify-between lg:px-16  gap-6 overflow-x-auto scrollbar-hide">
         {categories.map((item) => (
-          <div
+          <Link href={`/category/${item.category}`}
             key={item.id}
             className="flex flex-col items-center     cursor-pointer"
           >
@@ -52,10 +53,10 @@ const OurTopCategories = () => {
             <p className="mt-3 text-sm font-medium text-center">
               {item.category}
             </p>
-          </div>
+          </Link>
         ))}
       </div>
-     
+
     </div>
   );
 };

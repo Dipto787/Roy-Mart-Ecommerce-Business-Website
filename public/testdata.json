@@ -1,0 +1,842 @@
+[
+  {
+    "category": "Hoodie",
+    "brand": "StreetWear Co.",
+    "price": 1890,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Charcoal Black",
+    "material": "80% Cotton, 20% Polyester Fleece",
+    "title": "Premium Urban Core Winter Hoodie Designed for Everyday Comfort, Street Style Fashion, Long-Lasting Warmth and a Modern Minimal Look Perfect for Casual and Outdoor Wear",
+    "images": "https://i.ibb.co.com/m561n7rg/Phoenix-10-Olive-green-casual-hoodie-with-a-relaxed-fit-draped-3.jpg",
+    "sold": 12
+  },
+  {
+    "category": "Hoodie",
+    "brand": "NorthWear",
+    "price": 2090,
+    "currency": "BDT",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Ash Grey",
+    "material": "Heavyweight Cotton Blend",
+    "title": "Essential Oversized Hoodie Built for Cold Weather Comfort with Relaxed Fit, Soft Inner Lining and a Clean Streetwear Aesthetic Suitable for Daily Winter Outfits",
+    "images": "https://i.ibb.co.com/3yyL0HTK/Phoenix-09-Jet-black-street-fit-pullover-hoodie-with-a-relaxed-0.jpg",
+    "sold": 13
+  },
+  {
+    "category": "Hoodie",
+    "brand": "UrbanX",
+    "price": 1990,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Navy Blue",
+    "material": "Cotton Fleece with Metal Zip",
+    "title": "Classic Full Zip Hoodie Combining Timeless Design, Easy Layering Style and Warm Fleece Fabric Making It Ideal for Travel, Campus Life and Casual Winter Days",
+    "images": "https://i.ibb.co.com/232b98F4/Phoenix-09-Ash-grey-street-fit-pullover-hoodie-with-a-subtle-s-0.jpg",
+    "sold": 12
+  },
+  {
+    "category": "Hoodie",
+    "brand": "MonoWear",
+    "price": 1790,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Olive Green",
+    "material": "Soft Brushed Cotton",
+    "title": "Minimal Logo Hoodie Crafted for Clean Fashion Lovers Who Prefer Simple Design, Comfortable Fit and Premium Fabric Without Loud Graphics",
+    "images": "https://i.ibb.co.com/hFFfj61Q/Phoenix-09-Charcoal-black-kangaroo-pocket-hoodie-with-a-slight-1.jpg",
+    "sold": 13
+  },
+  {
+    "category": "Hoodie",
+    "brand": "ColdZone",
+    "price": 2290,
+    "currency": "BDT",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Deep Brown",
+    "material": "Thick Fleece Cotton",
+    "title": "Heavyweight Winter Hoodie Engineered to Handle Cold Weather with Maximum Warmth, Durable Fabric and a Structured Fit for Long-Term Use",
+    "images": "https://i.ibb.co.com/fdztYHPt/Phoenix-09-Steel-grey-athletic-comfort-hoodie-with-a-relaxed-f-1.jpg",
+    "sold": 12
+  },
+  {
+    "category": "Hoodie",
+    "brand": "RawStreet",
+    "price": 1950,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Jet Black",
+    "material": "Cotton Polyester Blend",
+    "title": "Street Fit Pullover Hoodie Designed for Young Streetwear Culture Featuring Relaxed Fit, Soft Touch Fabric and Everyday Versatility",
+    "images": "https://i.ibb.co.com/czgFBnH/Phoenix-09-Sand-beige-premium-kangaroo-pocket-hoodie-with-subt-2.jpg",
+    "sold": 13
+  },
+  {
+    "category": "Hoodie",
+    "brand": "UrbanPeak",
+    "price": 2150,
+    "currency": "BDT",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Sand Beige",
+    "material": "Premium Cotton Fleece",
+    "title": "Premium Kangaroo Pocket Hoodie Offering Extra Comfort, Practical Storage and a Stylish Look Suitable for Both Indoor Relaxing and Outdoor Wear",
+    "images": "https://i.ibb.co.com/zVmw25RM/Phoenix-09-Steel-grey-athletic-comfort-hoodie-with-a-relaxed-f-2.jpg",
+    "sold": 12
+  },
+  {
+    "category": "Hoodie",
+    "brand": "FlexWear",
+    "price": 1850,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Steel Grey",
+    "material": "Breathable Cotton Blend",
+    "title": "Athletic Comfort Hoodie Built for Movement, Warmth and Flexibility Making It Perfect for Light Training, Walking or Casual Active Wear",
+    "images": "https://i.ibb.co.com/N6fPjJXm/Phoenix-09-Midnight-blue-modern-fit-winter-hoodie-with-subtle-2.jpg",
+    "sold": 13
+  },
+  {
+    "category": "Hoodie",
+    "brand": "NeoStyle",
+    "price": 2050,
+    "currency": "BDT",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Midnight Blue",
+    "material": "Soft Touch Cotton Fleece",
+    "title": "Modern Fit Winter Hoodie Created for Fashion-Forward Users Who Want Warm Clothing with a Clean Silhouette and Contemporary Look",
+    "images": "https://i.ibb.co.com/s93p88nt/Phoenix-10-Jet-black-modern-fit-hoodie-with-a-subtle-sheen-cap-3.jpg",
+    "sold": 12
+  },
+  {
+    "category": "Hoodie",
+    "brand": "DailyWear",
+    "price": 1750,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Maroon",
+    "material": "Lightweight Cotton Fleece",
+    "title": "Everyday Casual Hoodie Designed for Daily Use Offering Comfortable Fabric, Easy Styling and a Balanced Look for All Seasons",
+    "images": "https://i.ibb.co.com/Dg94Cj64/Phoenix-10-Maroon-everyday-casual-hoodie-with-realistic-folds-2.jpg",
+    "sold": 13
+  },
+  {
+    "category": "Denim",
+    "brand": "UrbanX",
+    "price": 2890,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Light Blue",
+    "material": "100% Washed Cotton Denim",
+    "title": "Classic Light Blue Denim Jacket with Button Front and Chest Pockets for Everyday Street Style and Layered Outfits",
+    "images": "https://i.ibb.co.com/NdZ5dJCM/Phoenix-10-Black-heavyweight-denim-trucker-jacket-with-metalli-1.jpg",
+    "sold": 18
+  },
+  {
+    "category": "Denim",
+    "brand": "BlueForge",
+    "price": 2490,
+    "currency": "BDT",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "color": "Dark Indigo",
+    "material": "Stretch Cotton Denim",
+    "title": "Slim Fit Dark Indigo Denim Jeans with Comfortable Stretch Fabric for Daily Wear and Smart Casual Looks",
+    "images": "https://i.ibb.co.com/hxwCW2VB/Phoenix-10-A-mid-blue-denim-buttondown-shirt-displayed-on-a-ha-0.jpg",
+    "sold": 27
+  },
+  {
+    "category": "Denim",
+    "brand": "StreetCraft",
+    "price": 1990,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Mid Blue",
+    "material": "Soft Washed Denim Cotton",
+    "title": "Mid Blue Button-Down Denim Shirt with Relaxed Fit for Casual Days, Travel and Layered Styling",
+    "images": "https://i.ibb.co.com/4n2HdnFf/Phoenix-10-Dark-indigo-slim-fit-denim-jeans-with-subtle-fading-2.jpg",
+    "sold": 15
+  },
+  {
+    "category": "Denim",
+    "brand": "NorthEdge",
+    "price": 3190,
+    "currency": "BDT",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Black",
+    "material": "Heavyweight Cotton Denim",
+    "title": "Black Denim Trucker Jacket with Strong Stitching and Structured Fit for Bold Street Fashion",
+    "images": "https://i.ibb.co.com/gLR1LDwk/Phoenix-10-A-light-blue-classic-denim-jacket-laid-flat-on-a-wo-3.jpg",
+    "sold": 22
+  },
+  {
+    "category": "Denim",
+    "brand": "RiderCo",
+    "price": 2590,
+    "currency": "BDT",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "color": "Grey Wash",
+    "material": "Stretch Washed Denim",
+    "title": "Grey Washed Denim Jeans with Modern Tapered Fit for Urban Lifestyle and Casual Comfort",
+    "images": "https://i.ibb.co.com/TMNTM3Dq/Phoenix-09-Dark-navy-denim-shirt-jacket-displayed-flat-on-a-st-0.jpg",
+    "sold": 19
+  },
+  {
+    "category": "Denim",
+    "brand": "UrbanX",
+    "price": 2290,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Olive Blue",
+    "material": "Brushed Cotton Denim",
+    "title": "Olive Blue Denim Overshirt with Soft Finish for Smart Casual Layering and Autumn Wear",
+    "images": "https://i.ibb.co.com/vKG5gPf/Phoenix-09-Dark-navy-denim-shirt-jacket-displayed-flat-on-a-st-3.jpg",
+    "sold": 14
+  },
+  {
+    "category": "Denim",
+    "brand": "BlueForge",
+    "price": 2790,
+    "currency": "BDT",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "color": "Vintage Blue",
+    "material": "Premium Vintage Wash Denim",
+    "title": "Vintage Blue Straight Fit Denim Jeans with Classic Look for Retro and Casual Styling",
+    "images": "https://i.ibb.co.com/7Nd3Lqzz/Phoenix-10-Stone-washed-denim-jacket-hanging-on-a-sleek-silver-0.jpg",
+    "sold": 31
+  },
+  {
+    "category": "Denim",
+    "brand": "StreetCraft",
+    "price": 2990,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Stone Wash",
+    "material": "Soft Washed Denim Cotton",
+    "title": "Stone Washed Denim Jacket with Relaxed Fit for Everyday Comfort and Streetwear Looks",
+    "images": "https://i.ibb.co.com/73V8cn9/Phoenix-10-Vintage-blue-straight-fit-denim-jeans-with-subtle-f-2.jpg",
+    "sold": 20
+  },
+  {
+    "category": "Denim",
+    "brand": "RiderCo",
+    "price": 2690,
+    "currency": "BDT",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "color": "Classic Blue",
+    "material": "Midweight Cotton Denim",
+    "title": "Classic Blue Regular Fit Denim Jeans with Timeless Design for Daily Wear and All-Season Use",
+    "images": "https://i.ibb.co.com/N2dNW2QY/Phoenix-10-Olive-blue-denim-overshirt-with-subtle-fading-and-r-0.jpg",
+    "sold": 24
+  },
+  {
+    "category": "Denim",
+    "brand": "NorthEdge",
+    "price": 2390,
+    "currency": "BDT",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Dark Navy",
+    "material": "Cotton Denim with Soft Inner Finish",
+    "title": "Dark Navy Denim Shirt Jacket with Hybrid Design for Casual Layering and Cool Weather Outfits",
+    "images": "https://i.ibb.co.com/Ldm5X768/Phoenix-10-Grey-washed-denim-jeans-laid-flat-on-a-rough-textur-1.jpg",
+    "sold": 17
+  },
+  {
+    "category": "Sweater",
+    "brand": "UrbanX",
+    "price": 2190,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Cream White",
+    "material": "Soft Wool Blend Knit",
+    "title": "Cream White Wool Blend Sweater with Classic Crew Neck and Warm Soft Texture for Everyday Winter Comfort",
+    "images": "https://i.ibb.co.com/qMBXt1gt/Phoenix-09-A-forest-green-soft-knit-sweater-with-subtle-textur-0.jpg",
+    "sold": 16
+  },
+  {
+    "category": "Sweater",
+    "brand": "NorthEdge",
+    "price": 2490,
+    "currency": "BDT",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Charcoal Grey",
+    "material": "Premium Acrylic Wool Knit",
+    "title": "Charcoal Grey Knit Sweater with Ribbed Cuffs and Modern Fit for Smart Casual Winter Styling",
+    "images": "https://i.ibb.co.com/d0VqJcDQ/Phoenix-09-A-navy-blue-fine-gauge-knit-sweater-with-subtle-she-3.jpg",
+    "sold": 21
+  },
+  {
+    "category": "Sweater",
+    "brand": "StreetCraft",
+    "price": 1990,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Forest Green",
+    "material": "Cotton Wool Blend Knit",
+    "title": "Forest Green Soft Knit Sweater with Minimal Design for Cozy Winter Days and Casual Outfits",
+    "images": "https://i.ibb.co.com/F4n6sPz3/Phoenix-09-A-forest-green-soft-knit-sweater-with-subtle-textur-1.jpg",
+    "sold": 14
+  },
+  {
+    "category": "Sweater",
+    "brand": "BlueForge",
+    "price": 2290,
+    "currency": "BDT",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Navy Blue",
+    "material": "Fine Gauge Wool Knit",
+    "title": "Navy Blue Fine Knit Sweater with Lightweight Warmth for Office Wear and Smart Layering",
+    "images": "https://i.ibb.co.com/fYdV6cPW/Phoenix-09-A-rust-brown-chunky-knit-sweater-with-visible-thick-1.jpg",
+    "sold": 19
+  },
+  {
+    "category": "Sweater",
+    "brand": "RiderCo",
+    "price": 2390,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Beige",
+    "material": "Cashmere Touch Acrylic Blend",
+    "title": "Beige Soft Touch Sweater with Elegant Texture for Premium Winter Casual and Travel Looks",
+    "images": "https://i.ibb.co.com/gbShty8s/Phoenix-09-A-black-merino-wool-slim-fit-sweater-with-visible-w-1.jpg",
+    "sold": 17
+  },
+  {
+    "category": "Sweater",
+    "brand": "UrbanX",
+    "price": 2090,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "color": "Rust Brown",
+    "material": "Heavy Knit Cotton Wool Blend",
+    "title": "Rust Brown Chunky Knit Sweater with Warm Feel for Cold Weather and Streetwear Styling",
+    "images": "https://i.ibb.co.com/qwjLHpP/Phoenix-09-A-sky-blue-lightweight-knit-sweater-with-a-subtle-s-0.jpg",
+    "sold": 13
+  },
+  {
+    "category": "Sweater",
+    "brand": "NorthEdge",
+    "price": 2590,
+    "currency": "BDT",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Black",
+    "material": "Merino Wool Blend",
+    "title": "Black Merino Wool Sweater with Slim Fit Design for Elegant Winter Outfits and Evening Wear",
+    "images": "https://i.ibb.co.com/TSwjq0S/Phoenix-10-A-wine-red-textured-knit-sweater-with-a-subtle-shee-1.jpg",
+    "sold": 25
+  },
+  {
+    "category": "Sweater",
+    "brand": "StreetCraft",
+    "price": 1890,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Sky Blue",
+    "material": "Soft Acrylic Knit",
+    "title": "Sky Blue Lightweight Knit Sweater with Cozy Feel for Daily Wear and Layered Looks",
+    "images": "https://i.ibb.co.com/0jhJyVW1/Phoenix-09-A-charcoal-grey-ribbed-knit-sweater-displayed-flat-3.jpg",
+    "sold": 11
+  },
+  {
+    "category": "Sweater",
+    "brand": "BlueForge",
+    "price": 2690,
+    "currency": "BDT",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Wine Red",
+    "material": "Premium Wool Blend Knit",
+    "title": "Wine Red Textured Knit Sweater with Rich Color for Stylish Winter and Festive Outfits",
+    "images": "https://i.ibb.co.com/SDnqVGkC/Phoenix-09-A-cream-white-crew-neck-sweater-folded-neatly-on-a-3.jpg",
+    "sold": 20
+  },
+  {
+    "category": "Sweater",
+    "brand": "RiderCo",
+    "price": 2290,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Olive Green",
+    "material": "Soft Touch Wool Acrylic Blend",
+    "title": "Olive Green Winter Sweater with Clean Look and Warm Comfort for Everyday Casual Wear",
+    "images": "https://i.ibb.co.com/fVk51RZQ/Phoenix-10-An-olive-green-soft-touch-winter-sweater-laid-flat-3.jpg",
+    "sold": 18
+  },
+  {
+    "category": "Jacket",
+    "brand": "UrbanX",
+    "price": 3490,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Black",
+    "material": "Quilted Polyester with Warm Padding",
+    "title": "Black Quilted Winter Jacket with Lightweight Insulation and Modern Street Style for Cold Weather Comfort",
+    "images": "https://i.ibb.co.com/NdZ9401P/Phoenix-10-A-charcoal-black-puffer-jacket-with-a-subtle-sheen-0.jpg",
+    "sold": 26
+  },
+  {
+    "category": "Jacket",
+    "brand": "NorthEdge",
+    "price": 3890,
+    "currency": "BDT",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Olive Green",
+    "material": "Water Resistant Polyester Shell",
+    "title": "Olive Green Hooded Jacket with Water Resistant Fabric and Warm Lining for Outdoor and Travel Wear",
+    "images": "https://i.ibb.co.com/G47DkYX7/Phoenix-10-A-beige-casual-jacket-with-a-subtle-sheen-hanging-n-2.jpg",
+    "sold": 19
+  },
+  {
+    "category": "Jacket",
+    "brand": "StreetCraft",
+    "price": 3290,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Navy Blue",
+    "material": "Soft Shell Polyester with Fleece Lining",
+    "title": "Navy Blue Soft Shell Jacket with Fleece Inside for Cozy Winter Days and Casual Style",
+    "images": "https://i.ibb.co.com/77wFx0g/Phoenix-10-A-luxurious-brown-faux-leather-biker-jacket-is-laid-0.jpg",
+    "sold": 17
+  },
+  {
+    "category": "Jacket",
+    "brand": "BlueForge",
+    "price": 4190,
+    "currency": "BDT",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Grey",
+    "material": "Wool Blend with Inner Padding",
+    "title": "Grey Wool Blend Winter Jacket with Tailored Look for Smart Casual and Office Wear",
+    "images": "https://i.ibb.co.com/jZfM1TBR/Phoenix-10-A-neatly-folded-grey-wool-blend-winter-jacket-with-0.jpg",
+    "sold": 14
+  },
+  {
+    "category": "Jacket",
+    "brand": "RiderCo",
+    "price": 2990,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Brown",
+    "material": "PU Leather with Warm Inner Lining",
+    "title": "Brown Faux Leather Jacket with Smooth Finish for Biker Style and Urban Fashion Looks",
+    "images": "https://i.ibb.co.com/TxZ8drdj/Phoenix-10-A-navy-blue-soft-shell-jacket-is-displayed-flat-on-2.jpg",
+    "sold": 23
+  },
+  {
+    "category": "Jacket",
+    "brand": "UrbanX",
+    "price": 3690,
+    "currency": "BDT",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Beige",
+    "material": "Cotton Twill with Soft Inner Lining",
+    "title": "Beige Casual Jacket with Minimal Design for Everyday Wear and Smart Layering Style",
+    "images": "https://i.ibb.co.com/zVCXGCp9/Phoenix-10-An-olive-green-hooded-jacket-hanging-on-a-wall-hook-1.jpg",
+    "sold": 15
+  },
+  {
+    "category": "Jacket",
+    "brand": "NorthEdge",
+    "price": 4590,
+    "currency": "BDT",
+    "sizes": [
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Charcoal Black",
+    "material": "Puffer Polyester with Thermal Fill",
+    "title": "Charcoal Black Puffer Jacket with Thick Padding for Extreme Cold and Outdoor Comfort",
+    "images": "https://i.ibb.co.com/mCXLsxvs/Phoenix-10-A-black-quilted-winter-jacket-laid-flat-on-a-white-2.jpg",
+    "sold": 28
+  },
+  {
+    "category": "Jacket",
+    "brand": "StreetCraft",
+    "price": 3190,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "color": "Rust Orange",
+    "material": "Canvas Cotton with Warm Lining",
+    "title": "Rust Orange Utility Jacket with Pocket Design for Trendy Streetwear and Winter Days",
+    "images": "https://i.ibb.co.com/ndVvN5c/Phoenix-10-A-midnight-blue-thermal-winter-jacket-hanging-again-1.jpg",
+    "sold": 12
+  },
+  {
+    "category": "Jacket",
+    "brand": "BlueForge",
+    "price": 3990,
+    "currency": "BDT",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Dark Green",
+    "material": "Soft Touch Polyester with Fleece Inside",
+    "title": "Dark Green Winter Jacket with Clean Look and Cozy Feel for Travel and Daily Wear",
+    "images": "https://i.ibb.co.com/hts4Pmf/Phoenix-10-A-dark-green-winter-jacket-with-a-soft-fluffy-cozy-0.jpg",
+    "sold": 16
+  },
+  {
+    "category": "Jacket",
+    "brand": "RiderCo",
+    "price": 4290,
+    "currency": "BDT",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Midnight Blue",
+    "material": "Premium Nylon with Thermal Padding",
+    "title": "Midnight Blue Winter Jacket with Windproof Design for Outdoor Adventures and Cold Climate Style",
+    "images": "https://i.ibb.co.com/jkHm5Vxk/Phoenix-10-A-rust-orange-utility-jacket-with-visible-pocket-de-1.jpg",
+    "sold": 20
+  },
+  {
+    "category": "Rashguard",
+    "brand": "IronFlex",
+    "price": 1890,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Black",
+    "material": "Polyester Spandex Compression Fabric",
+    "title": "Black Compression Rashguard with Sweat Wicking Fabric for Gym, MMA and High Intensity Training",
+    "images": "https://i.ibb.co.com/FLn7Fc0j/Phoenix-10-A-grey-slim-fit-rashguard-with-visible-moisture-con-0.jpg",
+    "sold": 22
+  },
+  {
+    "category": "Rashguard",
+    "brand": "PowerZone",
+    "price": 1990,
+    "currency": "BDT",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Navy Blue",
+    "material": "4-Way Stretch Polyester Spandex",
+    "title": "Navy Blue Athletic Rashguard with Muscle Fit Design for Workout and Combat Sports",
+    "images": "https://i.ibb.co.com/yB4QKJ3q/Phoenix-10-A-red-and-black-dynamic-pattern-rashguard-laid-flat-0.jpg",
+    "sold": 18
+  },
+  {
+    "category": "Rashguard",
+    "brand": "UrbanFight",
+    "price": 2090,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Grey",
+    "material": "Moisture Control Compression Fabric",
+    "title": "Grey Long Sleeve Rashguard with Slim Fit for MMA, Grappling and Gym Training",
+    "images": "https://i.ibb.co.com/PzDb5b43/Phoenix-10-A-crisp-white-performance-rashguard-made-of-lightwe-3.jpg",
+    "sold": 15
+  },
+  {
+    "category": "Rashguard",
+    "brand": "FlexCore",
+    "price": 1790,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "color": "Red & Black",
+    "material": "Breathable Polyester Spandex Blend",
+    "title": "Red and Black Training Rashguard with Dynamic Pattern for Fitness and Combat Sports",
+    "images": "https://i.ibb.co.com/N2VKHXwy/Phoenix-10-An-army-green-tactical-style-rashguard-hanging-on-a-1.jpg",
+    "sold": 20
+  },
+  {
+    "category": "Rashguard",
+    "brand": "IronFlex",
+    "price": 1990,
+    "currency": "BDT",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "White",
+    "material": "Quick Dry Compression Fabric",
+    "title": "White Performance Rashguard with Lightweight Feel for Summer Training and Gym Sessions",
+    "images": "https://i.ibb.co.com/B2rC0PqH/Phoenix-10-A-blue-and-yellow-graphic-rashguard-laid-flat-on-a-0.jpg",
+    "sold": 17
+  },
+  {
+    "category": "Rashguard",
+    "brand": "PowerZone",
+    "price": 2190,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Army Green",
+    "material": "Durable Stretch Polyester Spandex",
+    "title": "Army Green Tactical Style Rashguard for MMA, Crossfit and Intense Workouts",
+    "images": "https://i.ibb.co.com/mr0vQB1f/Phoenix-10-A-dark-grey-athletic-rashguard-folded-neatly-on-a-w-0.jpg",
+    "sold": 14
+  },
+  {
+    "category": "Rashguard",
+    "brand": "UrbanFight",
+    "price": 1890,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Blue & Yellow",
+    "material": "Elastic Compression Sports Fabric",
+    "title": "Blue and Yellow Graphic Rashguard with Bold Design for Training and Combat Sports",
+    "images": "https://i.ibb.co.com/r2TmT68x/Phoenix-10-A-black-and-gold-luxury-style-rashguard-laid-flat-o-3.jpg",
+    "sold": 16
+  },
+  {
+    "category": "Rashguard",
+    "brand": "FlexCore",
+    "price": 2090,
+    "currency": "BDT",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Dark Grey",
+    "material": "Sweat Resistant Compression Knit",
+    "title": "Dark Grey Athletic Rashguard with Clean Minimal Look for Gym and Training Wear",
+    "images": "https://i.ibb.co.com/mr8HQfZw/Phoenix-10-A-sky-blue-lightweight-rashguard-hanging-neatly-on-2.jpg",
+    "sold": 19
+  },
+  {
+    "category": "Rashguard",
+    "brand": "IronFlex",
+    "price": 2290,
+    "currency": "BDT",
+    "sizes": [
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Black & Gold",
+    "material": "Premium Compression Polyester Spandex",
+    "title": "Black and Gold Luxury Style Rashguard with Muscle Fit for MMA and Fitness Training",
+    "images": "https://i.ibb.co.com/Wp5Hg2T4/Phoenix-10-A-black-compression-rashguard-laid-flat-on-a-white-0.jpg",
+    "sold": 25
+  },
+  {
+    "category": "Rashguard",
+    "brand": "PowerZone",
+    "price": 1990,
+    "currency": "BDT",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Sky Blue",
+    "material": "Lightweight Breathable Compression Fabric",
+    "title": "Sky Blue Rashguard with Soft Stretch Fabric for Daily Gym and Training Sessions",
+    "images": "https://i.ibb.co.com/dJVmhBbR/Phoenix-10-A-navy-blue-long-sleeve-athletic-rashguard-folded-n-0.jpg",
+    "sold": 13
+  }
+]

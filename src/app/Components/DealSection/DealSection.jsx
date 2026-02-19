@@ -39,7 +39,7 @@ const DealsSection = () => {
     <section className="relative py-12 px-4 md:px-8 lg:px-16  my-8 overflow-hidden bg-gray-900 text-white">
       {/* Stylish Background Overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-purple-700 via-pink-600 to-orange-500 opacity-70 -z-10"></div>
-      <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/diagmonds.png')] opacity-20 -z-10"></div>
+      {/* <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/diagmonds.png')] opacity-20 -z-10"></div> */}
 
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         {/* Left: Text Content */}

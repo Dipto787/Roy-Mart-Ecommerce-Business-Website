@@ -10,9 +10,9 @@ import {
 const Footer = () => {
   return (
     <footer className="bg-black text-gray-300">
-      <div className="max-w-7xl mx-auto px-4 py-14">
+      <div className="container mx-auto px-4 py-14">
         {/* Top Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-10">
           
           {/* Brand Info */}
           <div>
