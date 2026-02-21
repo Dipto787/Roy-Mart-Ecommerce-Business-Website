@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const OurShop = ({ category = "Jacket" }) => {
+const OurShop = ({ category = "Jacket", search }) => {
   const [products, setProducts] = useState([]);
   const [filtered, setFiltered] = useState([]);
 
@@ -16,7 +16,7 @@ const OurShop = ({ category = "Jacket" }) => {
   const [showFilters, setShowFilters] = useState(false); // 🔥 Mobile toggle
 
   useEffect(() => {
-    fetch(`http://localhost:3000/api/products?category=${category}`)
+    fetch(`http://localhost:3000/api/products?category=${category}&&q=${search ? search : category}`)
       .then(res => res.json())
       .then(data => {
         setProducts(data);
@@ -93,13 +93,13 @@ const OurShop = ({ category = "Jacket" }) => {
           </select>
 
           {/* Brand */}
-           <h2 className="text-xl font-semibold mb-1">Brand</h2>
+          <h2 className="text-xl font-semibold mb-1">Brand</h2>
           <select className="w-full border p-2 rounded mb-3" onChange={(e) => setBrand(e.target.value)}>
             {brands.map((b, i) => <option key={i}>{b}</option>)}
           </select>
 
           {/* Sort */}
-           <h2 className="text-xl font-semibold mb-1">Sort</h2>
+          <h2 className="text-xl font-semibold mb-1">Sort</h2>
           <select className="w-full border p-2 rounded mb-3" onChange={(e) => setSort(e.target.value)}>
             <option value="default">Sort By</option>
             <option value="sold">Most Sold</option>
@@ -130,7 +130,7 @@ const OurShop = ({ category = "Jacket" }) => {
                 <h3 className="font-semibold text-sm line-clamp-2">{p.title}</h3>
                 <p className="text-xs text-gray-500">{p.brand}</p>
                 <p className="text-lg font-bold mt-2">৳ {p.price}</p>
-            
+
               </div>
             </Link>
           ))}

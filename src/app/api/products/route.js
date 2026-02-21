@@ -1,40 +1,47 @@
 import dbConnect, { collectionNameObj } from "@/app/lib/dbConnect";
 import { NextResponse } from "next/server";
 
-export const GET = async (req) => {
-  const { searchParams } = new URL(req.url);
+// ================== GET PRODUCTS ==================
+export async function GET(req) {
+  try {
+    const { searchParams } = new URL(req.url);
 
-  const category = searchParams.get("category");
-  const q = searchParams.get("q"); // 🔹 search text
+    const category = searchParams.get("category");
+    const q = searchParams.get("q");
 
-  const productCollection = dbConnect(collectionNameObj.productCollection);
+    const productCollection = dbConnect(
+      collectionNameObj.productCollection
+    );
 
-  let query = {};
+    let query = {};
 
-  // 🔹 Category filter
-  if (category) {
-    query.category = category;
+    if (category) {
+      query.category = category;
+    }
+
+    if (q) {
+      query.title = { $regex: q, $options: "i" };
+    }
+
+    const products = await productCollection
+      .find(query)
+      .sort({ updatedAt: -1, createdAt: -1 })
+      .toArray();
+
+    return NextResponse.json(products);
+
+  } catch (error) {
+    console.error("❌ Product GET Error:", error);
+    return NextResponse.json(
+      { message: "Failed to fetch products" },
+      { status: 500 }
+    );
   }
+}
 
-  // 🔹 Name search (case-insensitive)
-  if (q) {
-    query.title = { $regex: q, $options: "i" };
-  }
-
-  // 🔹 Sort by updatedAt first, fallback to createdAt
-  const result = await productCollection
-    .find(query)
-    .sort({ updatedAt: -1, createdAt: -1 }) // 🔥 updated products come first
-    .toArray();
-
-  return NextResponse.json(result);
-};
-
- 
-
+// ================== ADD PRODUCT ==================
 export async function POST(req) {
   try {
-
     const body = await req.json();
 
     const {
@@ -50,9 +57,9 @@ export async function POST(req) {
       sold,
     } = body;
 
-    const productsCollection =dbConnect(
+    const productsCollection = dbConnect(
       collectionNameObj.productCollection
-    )
+    );
 
     const newProduct = {
       category,
@@ -66,16 +73,19 @@ export async function POST(req) {
       images,
       sold: sold || 0,
       createdAt: new Date(),
-      updatedAt: new Date(), // 🔥 add for sorting
-      // createdBy: session.user.email, // optional
+      updatedAt: new Date(),
     };
 
     const result = await productsCollection.insertOne(newProduct);
 
     return NextResponse.json(
-      { message: "Product added successfully", productId: result.insertedId },
+      {
+        message: "Product added successfully",
+        productId: result.insertedId,
+      },
       { status: 201 }
     );
+
   } catch (error) {
     console.error("❌ Add Product Error:", error);
     return NextResponse.json(
