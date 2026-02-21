@@ -61,7 +61,7 @@ export async function POST(req) {
     }
 
     return NextResponse.redirect(
-      `http://localhost:3000/success?tran_id=${tran_id}`
+      `http://localhost:3000/my-orders`
     );
 
   } catch (error) {
@@ -71,5 +71,23 @@ export async function POST(req) {
     return NextResponse.redirect(
       `http://localhost:3000/fail?tran_id=${tran_id}`
     );
+  }
+}
+
+
+export async function GET() {
+  try {
+    const paymentCollection = dbConnect(collectionNameObj.paymentCollection);
+
+    // Fetch all paid SSLCommerz payments sorted by latest
+    const payments = await paymentCollection
+      .find({ status: "paid", method: "sslcommerz" })
+      .sort({ createdAt: -1 })
+      .toArray();
+
+    return NextResponse.json({ success: true, payments });
+  } catch (err) {
+    console.error("SSLCommerz GET Error:", err);
+    return NextResponse.json({ success: false, message: "Server error" });
   }
 }

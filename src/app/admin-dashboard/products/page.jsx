@@ -3,6 +3,8 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import toast from "react-hot-toast";
+import Swal from "sweetalert2";
 
 export default function AdminProductsPage() {
   const [products, setProducts] = useState([]);
@@ -37,21 +39,44 @@ export default function AdminProductsPage() {
 
   // 🔹 Delete
 const handleDelete = async (id) => {
-  const confirmDelete = window.confirm("Are you sure you want to delete this product?");
-  if (!confirmDelete) return;
+  const result = await Swal.fire({
+    title: "Are you sure?",
+    text: "You won't be able to revert this!",
+    icon: "warning",
+    showCancelButton: true,
+    confirmButtonColor: "#3085d6",
+    cancelButtonColor: "#d33",
+    confirmButtonText: "Yes, delete it!",
+  });
+
+  if (!result.isConfirmed) return;
 
   try {
-    const res = await fetch(`/api/products/${id}`, { method: "DELETE" });
+    const res = await fetch(`/api/products/${id}`, {
+      method: "DELETE",
+    });
 
     if (!res.ok) {
       throw new Error("Failed to delete product");
     }
 
-    toast.success("Product deleted successfully ✅");
+    await Swal.fire({
+      title: "Deleted!",
+      text: "Your product has been deleted.",
+      icon: "success",
+      timer: 1500,
+      showConfirmButton: false,
+    });
+
     loadProducts(search, category); // reload products
   } catch (err) {
     console.error(err);
-    toast.error("Something went wrong ❌");
+
+    Swal.fire({
+      title: "Error!",
+      text: "Something went wrong ❌",
+      icon: "error",
+    });
   }
 };
 
@@ -116,7 +141,7 @@ const handleDelete = async (id) => {
             >
               <div className="flex gap-4">
                 <Image
-                  src={product?.images || "/placeholder.png"}
+                  src={product?.images}
                   alt={product.title}
                   width={80}
                   height={80}

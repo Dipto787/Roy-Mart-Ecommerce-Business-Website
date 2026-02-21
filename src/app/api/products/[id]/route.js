@@ -23,8 +23,8 @@ export async function DELETE(req, { params }) {
     );
   }
 
-  const { id } = params;
-  const productCollection = await dbConnect(collectionNameObj.productCollection);
+  const { id } = await params;
+  const productCollection = dbConnect(collectionNameObj.productCollection);
 
   await productCollection.deleteOne({ _id: new ObjectId(id) });
 
@@ -43,10 +43,10 @@ export async function PATCH(req, { params }) {
       );
     }
 
-    const { id } = params;
+    const { id } = await params;
     const body = await req.json();
 
-    const productsCollection = await dbConnect(
+    const productsCollection =  dbConnect(
       collectionNameObj.productCollection
     );
 

@@ -10,10 +10,10 @@ export default function CartPage() {
     const { cart, refetchCart } = useCart();
     const [localQty, setLocalQty] = useState({});
     const { data: session, status: sessionStatus } = useSession();
-    console.log(session)
+
     const removeItem = async (id) => {
         await fetch(`/api/cart?id=${id}`, { method: "DELETE" });
-        toast.success('product deleted');
+        toast.success('Product deleted');
         refetchCart();
     };
 
@@ -27,22 +27,18 @@ export default function CartPage() {
             body: JSON.stringify({ id, quantity: qty }),
         });
         refetchCart();
-        toast.success('product quantity updated');
+        toast.success('Product quantity updated');
     };
 
     const handlePayment = async () => {
-
         const totalAmount = cart.reduce(
-            (sum, cart) => sum + cart.product_price * cart.quantity,
+            (sum, item) => sum + item.product_price * item.quantity,
             0
         );
-        console.log(totalAmount)
 
         const res = await fetch("/api/payment/init", {
             method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
+            headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
                 amount: totalAmount,
                 name: session?.user?.name,
@@ -50,19 +46,18 @@ export default function CartPage() {
                 address: "Dhaka",
                 carts: cart,
                 status: 'pending'
-                // cartItems: cart   // চাইলে backend এ cart পাঠাতে পারো
             }),
         });
 
         const data = await res.json();
         if (data?.gatewayUrl) {
-            window.location.replace(data.gatewayUrl)
+            window.location.replace(data.gatewayUrl);
         }
         console.log("Response from server:", data);
     };
 
-
-
+    // --- New COD Handler ---
+   
     return (
         <div className="max-w-7xl mx-auto px-4 py-12">
             <h1 className="text-center text-2xl font-semibold tracking-widest mb-10">
@@ -107,7 +102,8 @@ export default function CartPage() {
                                     }
                                     className="w-20 border rounded px-2 py-1 text-center"
                                 />
-                                <Link href={'/my-cart'}
+                                <Link
+                                    href={'/my-cart'}
                                     onClick={() => updateQty(item._id)}
                                     className="text-xs bg-blue-600 hover:bg-blue-700 text-white px-3 py-1 rounded"
                                 >
@@ -162,9 +158,20 @@ export default function CartPage() {
                             CONTINUE SHOPPING
                         </button>
                     </Link>
-                    <button onClick={handlePayment} className="w-full bg-black text-white py-3 hover:bg-gray-900 transition">
+
+                    {/* Checkout & COD */}
+                    <button
+                        onClick={handlePayment}
+                        className="w-full bg-black cursor-pointer text-white py-3 mb-2 hover:bg-gray-900 transition"
+                    >
                         CHECKOUT
                     </button>
+                    <Link href={'/user-pay-info'} >
+                        <button
+                            className="w-full cursor-pointer bg-green-600 text-white py-3 hover:bg-green-700 transition"
+                        >
+                            CASH ON DELIVERY
+                        </button></Link>
                 </div>
             </div>
         </div>

@@ -1,13 +1,48 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
+import { useSession, signOut } from "next-auth/react";
 
 export default function DashboardLayout({ children }) {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
   const router = useRouter();
+  const { data: session, status } = useSession();
+
+  // 🔥 LIVE ROLE CHECK
+  // useEffect(() => {
+  //   if (status === "loading") return;
+
+  //   if (!session) {
+  //     router.push("/login");
+  //     return;
+  //   }
+
+  //   const checkRole = async () => {
+  //     try {
+  //       const res = await fetch("/api/users/role");
+  //       const data = await res.json();
+
+  //       if (data.role !== "admin") {
+  //         // role change detected
+  //         await signOut({ redirect: false });
+  //         router.push("/");
+  //       }
+  //     } catch (err) {
+  //       console.error("Role check error:", err);
+  //     }
+  //   };
+
+  //   // Run immediately
+  //   // checkRole();
+
+  //   // Poll every 5 seconds
+  //   const interval = setInterval(checkRole, 5000);
+
+  //   return () => clearInterval(interval);
+  // }, [session, status, router]);
 
   const linkClass = (path) =>
     `block px-3 py-2 rounded transition ${
@@ -17,15 +52,7 @@ export default function DashboardLayout({ children }) {
     }`;
 
   const handleLogout = async () => {
-    try {
-      // Example: clear auth cookie / token here
-      // await fetch("/api/logout", { method: "POST" });
-
-      // For now just redirect
-      router.push("/login");
-    } catch (err) {
-      console.error("Logout failed", err);
-    }
+    await signOut({ callbackUrl: "/login" });
   };
 
   return (

@@ -11,6 +11,7 @@ export default function ClientWrapper({ children }) {
  const hideOnAuth =
   pathname === "/login" ||
   pathname === "/register" ||
+  pathname === "/user-pay-info" || 
   pathname.startsWith("/admin-dashboard");
 
 
